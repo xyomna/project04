@@ -171,3 +171,7 @@ body.theme{
     background-color: #111827;
     color: white;
  }
+body.theme #contact button {
+    background-color: white;
+    color: #111827;
+}
