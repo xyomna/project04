@@ -3,5 +3,122 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <title>My Protfolio</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <title> Personal Portfolio</title>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1> YOMNA </h1>
+        <ul>
+          <li><a href="#About">About Me</a> </li>
+          <li><a href="#Skills">Skills</a> </li>
+          <li><a href ="#Hobbies">Hobbies</a> </li>
+          <li> <a href="#projects">projects</a></li>
+          <li><a href="#contact ">Contact</a></li>
+        </ul>
+        <button id="theme">Dark Mode</button>
+      </nav>
+    </header>
+    <main>
+      <section id = "About">
+        <div class="abouttext">
+          <div class=" aboutimage">
+          <img src="assets/oooooooo.jpeg" alt="My profile photo">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+          <h1>About Me</h1>
+          <p>
+            Hello, I'm Yomna i'm Computer Science student learning
+            web development and building small projects.
+          </p>
+        </div>
+
+
+      </section>
+      <section id = "Skills">
+        <h1>My Skills</h1>
+        <div class="Skillss">
+          <div class="skill">HTML</div>
+          <br>
+          <div class="skill">CSS</div>
+          <br>
+          <div class="skill">JavaScript</div>
+          <br>
+          <div class="skill">Python</div>
+        </div>
+      </section>
+
+
+      <section id="projects">
+        <h1>My Projects</h1>
+        <div class="pro">
+          <a href="https://github.com/xyomna/project00" target="_blank" class="project-card">
+              <h3>Project 00</h3>
+              <p>Git and Terminal Exercises</p>
+          </a>
+
+          <a href="https://github.com/xyomna/project01" target="_blank"  class="project-card">
+              <h3>Project 01</h3>
+              <p>HTML Project</p>
+          </a>
+
+          <a href="https://github.com/xyomna/Project02" target="_blank" class="project-card">
+              <h3>Project 02</h3>
+              <p>CSS Project</p>
+          </a>
+
+          <a href="https://github.com/xyomna/Project03" target="_blank" class="project-card">
+              <h3>Project 03</h3>
+              <p>JavaScript Project</p>
+          </a>
+        </div>
+      </section>
+      <section id="Hobbies">
+        <h1>My Hobbies</h1>
+        <div class="hobbies">
+          <div class="hobby">
+            <h3>Learning Languages</h3>
+            <p> I enjoy learning new languages.</p>
+          </div>
+          <div class="hobby">
+            <h3> Chess</h3>
+            <p>I enjoy playing chess and improving my skills.</p>
+          </div>
+          <div class="hobby">
+            <h3>Drawing</h3>
+            <p>I enjoy drawing in my free time.</p>
+          </div>
+        </div>
+
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <br>
+        <br>
+        <form action="mailto:" method="post" enctype="text/plain">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+          <label for="email"> Email:</label>
+          <input type="email" id="email" required>
+          <label for="message">Message:</label>
+          <textarea id ="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <footer>
+        <p>My Portfolio</p>
+        <p> Created by Yomna</p>
+      </footer>
+
+    </main>
+  </body>
+</html>

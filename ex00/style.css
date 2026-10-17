@@ -1,0 +1,173 @@
+body{
+    font-size: Arial, sans-serif;
+    margin: 0;
+ }
+ header{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+ }
+ nav button{
+    padding: 10px;
+    cursor: pointer;
+ }
+ 
+ a{
+    color: white;
+    text-decoration: none;
+ }
+ #Adout {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+ }
+ .abouttext{
+    flex: 1;
+    text-align: center;
+ }
+.aboutimage img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+ #Skills{
+    padding: 50px;
+    text-align: center;
+ }
+ .Skillss{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+ }
+ .skill{
+    padding: 20px;
+    width: 120px;
+    background-color: #e5e7eb;
+    color: #111827;
+    border-radius: 10px;
+ }
+ #projects {
+    padding: 50px;
+    text-align: center;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    width: 200px;
+    padding: 20px;
+    background-color: #e5e7eb;
+    color: #111827;
+    border-radius: 10px;
+    text-align: center;
+}
+#Hobbies {
+    padding: 50px;
+    text-align: center;
+}
+
+.hobbies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobby {
+    width: 200px;
+    padding: 20px;
+    background-color: #e5e7eb;
+    color: #111827;
+    border-radius: 10px;
+    text-align: center;
+}
+#contact{
+    padding: 50px;
+    text-align: center;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+#contact input,
+#contact textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+#contact button {
+    padding: 10px;
+    background-color: #111827;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    padding: 20px;
+    background-color: #111827;
+    color: white;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    #About,
+    #Skills,
+    #Projects,
+    #Hobbies,
+    #Contact {
+        padding: 20px;
+    }
+
+    .projects-container,
+    .skills-grid,
+    .hobbies-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card,
+    .skill,
+    .hobby-card {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+body.theme{
+    background-color: #111827;
+    color: white;
+ }
+ body.theme header,
+ body.theme main,
+ body.theme section,
+ body.theme footer{
+    background-color: #111827;
+    color: white;
+ }
