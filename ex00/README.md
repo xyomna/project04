@@ -23,8 +23,8 @@ This project is a personal portfolio website created using HTML, CSS, and JavaSc
 ## Project Structure
 
 - `index.html` — Website structure.
-- `yj.css` — Website styling and layout.
-- `yj.js` — Dark mode functionality.
+- `style.css` — Website styling and layout.
+- `script.js` — Dark mode functionality.
 - `assets/` — Images used in the website.
 
 ## How to Run
